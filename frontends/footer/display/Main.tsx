@@ -35,7 +35,7 @@ function Link({ href, Icon }: Link) {
 
 export default function () {
   return (
-    <footer class="footer absolute left-0 right-0 bottom-0">
+    <footer class="footer">
       <div class="container mx-auto">
         <div class="flex flex-wrap items-center justify-center lg:justify-between gap-10 p-4">
           <ul class="flex flex-wrap justify-center items-center gap-4">
