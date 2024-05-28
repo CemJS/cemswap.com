@@ -35,7 +35,7 @@ function Link({ href, Icon }: Link) {
 
 export default function () {
   return (
-    <footer class="footer">
+    <footer class="footer flex-initial">
       <div class="container mx-auto">
         <div class="flex flex-wrap items-center justify-center lg:justify-between gap-10 p-4">
           <ul class="flex flex-wrap justify-center items-center gap-4">
@@ -61,7 +61,7 @@ export default function () {
             <Link href="https://youtube.com/channel/UCb9Fx-fNikzs-OZwnTXepLg" Icon={ Youtube } />
             <Link href="https://crypto-emergency.com/" Icon={ Cem } />
           </ul>
-          <p>Crypto Emergency. All rights reserved © 2022</p>
+          <p>Crypto Emergency. All rights reserved © 2022-{ new Date().getFullYear() }</p>
         </div>
       </div>
     </footer>
