@@ -1,12 +1,13 @@
-import { Cemjsx, Static } from "cemjs-all"
-import space from '@svg/space.svg'
+import { Cemjsx } from "cemjs-all"
+import lines from "@images/home/preview/lines.svg";
+import nft from "@images/home/preview/nft.jpg";
 
 
 export default function () {
   return (
-    <div class="home home_container">
-      <h2 class="home_title">{Static.text}</h2>
-      <img class="home_logoCem" src={space}></img>
-    </div>
+    <section class="home container mx-auto relative flex overflow-hidden">
+      <img src={ lines } alt="background element" class="absolute w-3/12 "/>
+      <img src={ nft } alt="crypto emergency, nft" />
+    </section>
   )
 }
